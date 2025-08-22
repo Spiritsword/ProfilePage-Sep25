@@ -34,7 +34,7 @@ Serif: Georgia (readable at different font sizes; good for mobile)
 ### PLAN
 
 ## Prep work
-Initialise html file with required semantic html detailing sections
+Initialise html file with required semantic html detailing sections (Y)
 Take a screenshot of each of two projects and load images into local folder
 
 ## Populate page
