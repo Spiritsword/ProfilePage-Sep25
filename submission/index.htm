@@ -18,20 +18,79 @@
         </nav>
     </header>
     <main>
-        <section id="about"></section>
+        <section id="about">
+            <h2>Personal Profile</h2>
+            <img src="./profile_photo_square.jpg" alt="Profile photo">
+            <p>
+                I have a background in digital marketing and market research, 
+                but am looking to transition to software development. 
+                I am qualified in mathematics (BA Oxford and PhD Edinburgh) 
+                and technical programming (MSc Cranfield). I also have an interest 
+                in Art and Musical Theatre writing, which I have studied 
+                at university level. Web design and development services offered.
+            </p>  
+        </section>
         <section id="projects">
+            <h2>Projects</h2>
             <article class="project">
-                <h1>Project 1</h1>
+                <h1>Project 1: The Missing Piece</h1>
+                <img src="./missing.piece.png" alt="Three-by-three sliding squares puzzle">
+                <p>
+                    This is the first of three game projects aiming to evoke feelings in the player enabling them to better appreciate concepts
+                    related to the Christian faith. This online mini-game was written in Javascript. The player is presented with
+                    a 3-by-3 sliding square puzzle without being told that is what it is, or given information
+                    about what the solution would look like. When the square is solved, space for an image of Jesus is left in the centre, and
+                    such an image fades in. A caption appears, "Jesus is the missing piece" along with a link to a video with more information.
+                    The aim of the puzzle was to use a simple mechanism to evoke a feeling of puzzlement as to what the aim and rules of the game
+                    even were, and to whether there was even any meaningful game present, metaphorically alluding to the search for the meaning
+                    of life. Jesus being the missing piece alludes to the bible verse that states "in him all things hold together"
+                    (Colossians 1:17). Technical challenges to building this included a lack of mathematical understanding of which initial
+                    configurations were solvable. This necessitated generating the initial configuration by a random step-by-step disordering
+                    of the solution configuration.    
+                </p>    
             </article>
             <article class="project">
-                <h1>Project 2</h1>
+                <h1>Project 2: Greatest Treasure</h1>
+                <img src="./greatest.treasure.jpg" alt="Image representing bidding war for fields">
+                <p>
+                    This is the second of the three Christian mini-game projects, and was also written in Javascript. It is intended to bring to
+                    life the concept described in Matthew 13:44: "The kingdom of heaven is like treasure hidden in a field. When a man found it, he hid it again,
+                    and then in his joy went and sold all he had and bought that field." A particular challenge for this game was to handle responsiveness.
+                    I had the visual components arranged on multiple layers, and each layer responded differently to changes in size and proportion of the screen, leading to
+                    Undesirable occlusions. Future work would be to refactor the game to unify the responsive behaviour. Future work might also be to create a
+                    tutorial.
+                </p>
             </article>
         </section>
-        <section id="contact me"></section>
+        <form id="contact form">
+            <label for="firstname">First Name:</label>
+            <br>
+            <input type="text" id="firstname" name="name">
+            <br>
+            <label for="lastname">Last Name:</label>
+            <br>
+            <input type="text" id="lastname" name="name">
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <textarea name="message" form="contact form">Please leave a message:</textarea>
+            <br>         
+        </form>
     </main>
     <footer>
-        <section id="contact details"></section>
-        <section id="copyright"></section>
+        <section id="my contact details">
+            <h1>My contact details</h1>
+        <nav>
+            <ul>
+                <li><a href=mailto: ladidah@gmail.com>Email me</a></li>
+                <li><a href=tel: 01234 567 890>Phone me</a></li>
+            </ul>
+        </section>
+        <section id="copyright">
+            <h1>© 2025 Jonathan Puddicombe</h1>
+        </section>
     </footer>
 </body>
 </html>
