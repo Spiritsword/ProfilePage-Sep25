@@ -1,0 +1,45 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    }
+
+html    {
+        font-size: vmin;
+        box-sizing: border-box;
+        font-family: 'Georgia', serif;
+        font-weight: 400;    
+        }
+
+h1, h2, h3, h4, h5  {
+                    font-family: 'Tahoma', sans-serif;                    
+                    }
+
+img {
+    width: 15rem;
+    display: inline-block;
+    margin: 5%;
+    float: left;
+    }
+
+.project img    {
+                width: 50%;
+                }
+
+#about  {
+        display: block;
+        }
+
+#projects   {
+            clear: left;
+            }
+
+.project   {
+            /*clear: left;*/
+            display: inline-block;
+            width: 40vw;
+            }
+
+#project2   {
+            float:right;
+            }
