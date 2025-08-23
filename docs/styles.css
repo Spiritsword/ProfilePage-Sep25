@@ -64,7 +64,7 @@ nav h4 {
 input, textarea {
                     border: 1px solid orangered;
                     width: 100%;
-                    border-radius: 4px;
+                    border-radius: 0.4rem;
                     font-family: 'Georgia', serif;
                     font-weight: 400;
                     font-size: 1rem;
@@ -120,6 +120,7 @@ img {
         border-style: solid;
         border-width: thin;
         border-color: orangered;
+        border-radius: 0.4rem;
         float: left;
     }
 
