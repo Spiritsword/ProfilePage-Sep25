@@ -69,6 +69,7 @@ input, textarea {
                     font-weight: 400;
                     font-size: 1rem;
                     color: darkblue;
+                    font-weight: 400
 }
 
 label   {
@@ -78,6 +79,21 @@ label   {
 textarea    {
                 height: 10rem;
                 resize: none
+            }
+
+.link   {
+                        font-family: 'Tahoma', sans-serif;
+                        padding: 2%;
+                        font-weight: bold;
+                        width: 20%;
+                        float: right;
+                        color: darkblue;
+                        background-color: lightblue;
+                        border: none                        
+        }
+
+.link:hover {
+                background-color: orangered
             }
 
 footer h4   {
