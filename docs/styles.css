@@ -61,6 +61,25 @@ nav h4 {
                 padding: 1%
             }
 
+input, textarea {
+                    border: 1px solid orangered;
+                    width: 100%;
+                    border-radius: 4px;
+                    font-family: 'Georgia', serif;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    color: darkblue;
+}
+
+label   {
+            font-size: 1rem;
+        }
+
+textarea    {
+                height: 10rem;
+                resize: none
+            }
+
 footer h4   {
                 display: inline-block;
                 text-align: center;
