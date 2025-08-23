@@ -1,45 +1,93 @@
 *   {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
     }
 
 html    {
-        font-size: vmin;
-        box-sizing: border-box;
-        font-family: 'Georgia', serif;
-        font-weight: 400;    
+            font-size: vw;
+            color: navy;
+            box-sizing: border-box;
+            font-family: 'Georgia', serif;
+            font-weight: 400;
+            padding: 0 2%
         }
 
-h1, h2, h3, h4, h5  {
-                    font-family: 'Tahoma', sans-serif;                    
+h1, h2, h3, h4, h5, h6  {
+                        font-family: 'Tahoma', sans-serif;
+                        padding: 0 0 2% 0;                    
                     }
 
-img {
-    width: 15rem;
-    display: inline-block;
-    margin: 5%;
-    float: left;
+p   {
+        margin: 0 0 1em 0
     }
 
-.project img    {
-                width: 50%;
-                }
+img {
+        width: 50%;
+        display: inline-block;
+        margin: 0% 5% 0% 0%;
+        border-style: solid;
+        border-width: thin;
+        border-color: orangered;
+        float: left;
+    }
 
-#about  {
-        display: block;
+h1, h6  {
+            text-align: center;
         }
 
+header, footer  {
+                    background-color: darkblue;
+                    color: white;
+                    width: 100%;
+                    padding: 2%;
+                }
+
+nav h5 {
+            display: inline-block;
+            text-align: center;
+            width: 24.5%;
+            color: lightblue;
+        }
+
+footer h5   {
+                display: inline-block;
+                text-align: center;
+                width: 49.5%;
+                color: lightblue;
+            }
+
+footer h4   {
+                text-align: center;
+            }
+
 #projects   {
-            clear: left;
+                background-color: lightblue;
+                box-sizing: border-box;
+                clear: left;
             }
 
 .project   {
-            /*clear: left;*/
-            display: inline-block;
-            width: 40vw;
+                vertical-align: top;
+                padding: 0 3% 0 0;
+                display: inline-block;
+                width: 49.5%;
             }
 
 #project2   {
-            float:right;
+                float:right;
             }
+section {
+            padding: 5% 0%;
+            margin: 2% 0% 0% 0%;
+            overflow: hidden
+        }
+
+a   {
+        color: unset;
+        text-decoration: unset;
+    }
+
+a:hover {
+            color: orangered
+        }

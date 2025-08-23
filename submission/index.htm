@@ -10,12 +10,10 @@
     <header>
         <h1>Jonathan Puddicombe</h1>
         <nav>
-            <ul>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact me</li>
-                <li>Contact details</li>   
-            </ul>
+                <h5><a href="#about">About</a></h5>
+                <h5><a href="#projects">Projects</a></h5>
+                <h5><a href="#contact">Message me</a></h5>
+                <h5><a href="#footer">Email/Phone</a></h5>
         </nav>
     </header>
     <main>
@@ -34,64 +32,72 @@
         <section id="projects">
             <h2>Projects</h2>
             <article class="project">
-                <h1>Project 1: The Missing Piece</h1>
-                <img src="./missing.piece.png" alt="Three-by-three sliding squares puzzle">
-                <p>
-                    This is the first of three game projects aiming to evoke feelings in the player enabling them to better appreciate concepts
-                    related to the Christian faith. This online mini-game was written in Javascript. The player is presented with
-                    a 3-by-3 sliding square puzzle without being told that is what it is, or given information
-                    about what the solution would look like. When the square is solved, space for an image of Jesus is left in the centre, and
-                    such an image fades in. A caption appears, "Jesus is the missing piece" along with a link to a video with more information.
-                    The aim of the puzzle was to use a simple mechanism to evoke a feeling of puzzlement as to what the aim and rules of the game
-                    even were, and to whether there was even any meaningful game present, metaphorically alluding to the search for the meaning
-                    of life. Jesus being the missing piece alludes to the bible verse that states "in him all things hold together"
-                    (Colossians 1:17). Technical challenges to building this included a lack of mathematical understanding of which initial
-                    configurations were solvable. This necessitated generating the initial configuration by a random step-by-step disordering
-                    of the solution configuration.    
-                </p>    
+                <h3>Project 1: The Missing Piece</h3>
+                <section class="content">
+                    <img src="./missing.piece.png" alt="Three-by-three sliding squares puzzle">
+                    <p>
+                        This is the first of three game projects aiming to evoke feelings in the player enabling them to better appreciate concepts
+                        related to the Christian faith. This online mini-game was written in Javascript. The player is presented with
+                        a 3-by-3 sliding square puzzle without being told that is what it is, or given information
+                        about what the solution would look like. When the square is solved, space for an image of Jesus is left in the centre, and
+                        such an image fades in. A caption appears, "Jesus is the missing piece" along with a link to a video with more information.
+                    </p>
+                    <p>
+                        The aim of the puzzle was to use a simple mechanism to evoke a feeling of puzzlement as to what the aim and rules of the game
+                        even were, and to whether there was even any meaningful game present, metaphorically alluding to the search for the meaning
+                        of life. Jesus being the missing piece alludes to the bible verse that states "in him all things hold together"
+                        (Colossians 1:17).
+                    </p>
+                    <p> 
+                        Technical challenges to building this included a lack of mathematical understanding of which initial
+                        configurations were solvable. This necessitated generating the initial configuration by a random step-by-step disordering
+                        of the solution configuration.   
+                    </p>
+                </section> 
             </article>
             <article class="project">
-                <h1>Project 2: Greatest Treasure</h1>
-                <img src="./greatest.treasure.jpg" alt="Image representing bidding war for fields">
-                <p>
-                    This is the second of the three Christian mini-game projects, and was also written in Javascript. It is intended to bring to
-                    life the concept described in Matthew 13:44: "The kingdom of heaven is like treasure hidden in a field. When a man found it, he hid it again,
-                    and then in his joy went and sold all he had and bought that field." A particular challenge for this game was to handle responsiveness.
-                    I had the visual components arranged on multiple layers, and each layer responded differently to changes in size and proportion of the screen, leading to
-                    Undesirable occlusions. Future work would be to refactor the game to unify the responsive behaviour. Future work might also be to create a
-                    tutorial.
-                </p>
+                <h3>Project 2: Greatest Treasure</h3>
+                <section class="content">
+                    <img src="./greatest.treasure.jpg" alt="Image representing bidding war for fields">
+                    <p>
+                        This is the second of the three Christian mini-game projects, and was also written in Javascript. It is intended to bring to
+                        life the concept described in Matthew 13:44: "The kingdom of heaven is like treasure hidden in a field. When a man found it, he hid it again,
+                        and then in his joy went and sold all he had and bought that field."
+                    </p>
+                    <p>    
+                        A particular challenge for this game was to handle responsiveness.
+                        I had the visual components arranged on multiple layers, and each layer responded differently to changes in size and proportion of the screen, leading to
+                        undesirable occlusions. Future work would be to refactor the game to unify the responsive behaviour. Future work might also be to create a
+                        tutorial.
+                    </p>
+                </section>
             </article>
         </section>
-        <form id="contact form">
-            <label for="firstname">First Name:</label>
-            <br>
-            <input type="text" id="firstname" name="name">
-            <br>
-            <label for="lastname">Last Name:</label>
-            <br>
-            <input type="text" id="lastname" name="name">
-            <br>
-            <label for="email">Email:</label>
-            <br>
-            <input type="email" id="email" name="email">
-            <br>
-            <textarea name="message" form="contact form">Please leave a message:</textarea>
-            <br>         
-        </form>
+        <section id="contact">
+            <h2>Message me</h2>
+            <form id="contact form">
+                <label for="firstname">First Name:</label>
+                <br>
+                <input type="text" id="firstname" name="name">
+                <br>
+                <label for="lastname">Last Name:</label>
+                <br>
+                <input type="text" id="lastname" name="name">
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email">
+                <br>
+                <br>
+                <textarea name="message" form="contact form">Please leave a message:</textarea>
+                <br>  
+            </form>
+        </section>
     </main>
-    <footer>
-        <section id="my contact details">
-            <h1>My contact details</h1>
-        <nav>
-            <ul>
-                <li><a href=mailto: ladidah@gmail.com>Email me</a></li>
-                <li><a href=tel: 01234 567 890>Phone me</a></li>
-            </ul>
-        </section>
-        <section id="copyright">
-            <h1>© 2025 Jonathan Puddicombe</h1>
-        </section>
+    <footer id="footer">
+        <h5><a href=mailto: ladidah@gmail.com>Email me</a></h5>
+        <h5><a href=tel: 01234 567 890>Phone me</a></h5>
+        <h6>© 2025 Jonathan Puddicombe</h6>
     </footer>
 </body>
 </html>
