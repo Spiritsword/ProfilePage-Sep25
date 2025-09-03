@@ -69,7 +69,6 @@ input, textarea {
                     font-weight: 400;
                     font-size: 1rem;
                     color: darkblue;
-                    font-weight: 400
 }
 
 label   {
@@ -101,9 +100,6 @@ footer h4   {
                 text-align: center;
                 width: 49.5%;
                 color: lightblue;
-            }
-
-footer h4   {
                 text-align: center;
             }
 
