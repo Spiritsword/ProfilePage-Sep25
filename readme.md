@@ -6,12 +6,12 @@ The folder "challenge" contains the project specification and marking scheme.
 
 The folder "docs" contains the submission, including a folder of images, and the files index.htm, styles.css and discussion.md, the latter including a copy of the requirements, a discussion of initial design choices, and a broad-brush project plan.
 
-The page can be found online at: 
+The page can be found online at:
 
-https://spiritsword.github.io/Step8Up-MyWork-Week1ChallengeRepo-ProfilePage/
+https://spiritsword.github.io/ProfilePage-Sep25/
 
 The github repository can be found at:
 
-https://github.com/Spiritsword/Step8Up-MyWork-Week1ChallengeRepo-ProfilePage
+https://github.com/Spiritsword/ProfilePage-Sep25
 
 
