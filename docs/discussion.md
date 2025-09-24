@@ -14,7 +14,7 @@ footer (Copyright).
 
 https://careerfoundry.com/en/blog/ui-design/introduction-to-color-theory-and-color-palettes/
 
-Complementary colours: Blue (stable and trustworthy) + Orange (creative and affordable)
+Complementary colours: Blue (stable and trustworthy) + Orange (creative and affordable).
 
 Light blue (dominant);
 Dark blue (secondary);
@@ -29,7 +29,7 @@ https://www.w3schools.com/cssref/css_websafe_fonts.php
 In order to give a feeling of modernity and yet traditionality to the site, I plan to pair a sans serif font (titles) with a serif font for legibility in body text.
 
 Sans serif: Tahoma (condensed font for impact in titles)
-Serif: Georgia (readable at different font sizes; good for mobile)
+Serif: Georgia (readable at different font sizes; good for mobile).
 
 ### PLAN
 
@@ -154,6 +154,7 @@ In this challenge, you will apply the skills you’ve learned—HTML, CSS, displ
 2. **YouTube: GitHub Pages Tutorial**
    - A video tutorial that visually demonstrates how to deploy a website using GitHub Pages. This is great for those who prefer learning through watching.
    - [Link to YouTube Tutorial](https://www.youtube.com/watch?v=BT4WzyT2g8k)
+
 
 
 
