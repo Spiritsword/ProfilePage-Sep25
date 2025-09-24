@@ -34,27 +34,27 @@ Serif: Georgia (readable at different font sizes; good for mobile)
 ### PLAN
 
 ## Prep work
-Initialise html file with required semantic html detailing sections (Y)
-Take a screenshot of each of two projects and load images into local folder
+Initialise html file with required semantic html detailing sections (Y);
+Take a screenshot of each of two projects and load images into local folder.
 
 ## Populate page
-   Page title
-   Titles
-   Nav bar
-   Profile text
-   Project text and images
-   Contact me form
-   Contact details
-   Copyright text
+   Page title;
+   Titles;
+   Nav bar;
+   Profile text;
+   Project text and images;
+   Contact me form;
+   Contact details;
+   Copyright text.
 
 ## Develop appearance
 
 CSS file:
-   Colours (text and background)
-   Fonts
-   Display modes
-   Section and element dimensions
-   Hover pseudoclass
+   Colours (text and background);
+   Fonts;
+   Display modes;
+   Section and element dimensions;
+   Hover pseudoclass.
 
 -----
 
@@ -154,5 +154,6 @@ In this challenge, you will apply the skills you’ve learned—HTML, CSS, displ
 2. **YouTube: GitHub Pages Tutorial**
    - A video tutorial that visually demonstrates how to deploy a website using GitHub Pages. This is great for those who prefer learning through watching.
    - [Link to YouTube Tutorial](https://www.youtube.com/watch?v=BT4WzyT2g8k)
+
 
 
