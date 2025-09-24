@@ -8,7 +8,7 @@ header (including title and nav);
 main (including section (About), section (Project1 and Project2));
 section (Contact me);
 section (My contact details);
-footer (Copyright);
+footer (Copyright).
 
 ## Colour palette.
 
@@ -16,10 +16,10 @@ https://careerfoundry.com/en/blog/ui-design/introduction-to-color-theory-and-col
 
 Complementary colours: Blue (stable and trustworthy) + Orange (creative and affordable)
 
-Light blue (dominant)
-Dark blue (secondary)
-Orange (accent)
-Plus white (background/text), dark grey (text)
+Light blue (dominant);
+Dark blue (secondary);
+Orange (accent);
+plus white (background/text), dark grey (text).
 
 ## Fonts
 
@@ -154,6 +154,7 @@ In this challenge, you will apply the skills you’ve learned—HTML, CSS, displ
 2. **YouTube: GitHub Pages Tutorial**
    - A video tutorial that visually demonstrates how to deploy a website using GitHub Pages. This is great for those who prefer learning through watching.
    - [Link to YouTube Tutorial](https://www.youtube.com/watch?v=BT4WzyT2g8k)
+
 
 
 
