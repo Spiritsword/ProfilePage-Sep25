@@ -4,11 +4,11 @@
 
 ## Semantic structure
 
-<header> (including title and <nav>)
-<main> (including <section> (About), <section> (Project1 and Project2))
-<section> (Contact me)
-<section> (My contact details)
-<footer> (Copyright)
+header (including title and nav)
+main (including section (About), section (Project1 and Project2))
+section (Contact me)
+section (My contact details)
+footer (Copyright)
 
 ## Colour palette.
 
@@ -154,3 +154,4 @@ In this challenge, you will apply the skills you’ve learned—HTML, CSS, displ
 2. **YouTube: GitHub Pages Tutorial**
    - A video tutorial that visually demonstrates how to deploy a website using GitHub Pages. This is great for those who prefer learning through watching.
    - [Link to YouTube Tutorial](https://www.youtube.com/watch?v=BT4WzyT2g8k)
+
